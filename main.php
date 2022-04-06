@@ -3,7 +3,7 @@ $nama_file = readline("Masukan file : ");
 $file = fopen("valid.txt","w");  
 $file2 = fopen("not valid.txt","w"); 
 // set API Access Key
-$access_key = 'c3f026b17a4b0238eebbbc3499f59475';
+$access_key = 'apikey'; // apikey
 // set phone number
 //$phone_number = '14158586273';
 if (file_exists($nama_file)) {
